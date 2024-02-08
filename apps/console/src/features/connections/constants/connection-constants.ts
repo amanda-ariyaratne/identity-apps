@@ -64,6 +64,7 @@ export class ConnectionManagementConstants {
     public static readonly APPLE_AUTHENTICATOR_ID: string = "QXBwbGVPSURDQXV0aGVudGljYXRvcg";
     public static readonly HYPR_AUTHENTICATOR_ID: string = "SFlQUkF1dGhlbnRpY2F0b3I";
     public static readonly SIWE_AUTHENTICATOR_ID: string = "T3BlbklEQ29ubmVjdEF1dGhlbnRpY2F0b3I"
+    public static readonly DUO_AUTHENTICATOR_ID: string = "RHVvQXV0aGVudGljYXRvcg";
 
     // Known Social/Enterprise authenticator names;
     public static readonly GOOGLE_OIDC_AUTHENTICATOR_NAME: string = "GoogleOIDCAuthenticator";

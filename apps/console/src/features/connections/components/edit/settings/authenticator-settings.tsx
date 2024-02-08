@@ -121,7 +121,8 @@ const commonAuthenticators: string[] = [
     ConnectionManagementConstants.APPLE_AUTHENTICATOR_ID,
     ConnectionManagementConstants.TRUSTED_TOKEN_TEMPLATE_ID,
     ConnectionManagementConstants.SAML_AUTHENTICATOR_ID,
-    ConnectionManagementConstants.OIDC_AUTHENTICATOR_ID
+    ConnectionManagementConstants.OIDC_AUTHENTICATOR_ID,
+    ConnectionManagementConstants.DUO_AUTHENTICATOR_ID
 ];
 
 /**

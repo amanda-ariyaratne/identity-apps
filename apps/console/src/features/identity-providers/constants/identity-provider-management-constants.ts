@@ -23,6 +23,8 @@ import SweIdpTemplate from "../../../extensions/identity-provider-templates/temp
 import TrustedTokenIssuerTemplate from
     "../../../extensions/identity-provider-templates/templates/trusted-token-issuer/trusted-token-issuer.json";
 import AppleIdPTemplate from "../data/identity-provider-templates/templates/apple/apple.json";
+import DuoIdPTemplate from
+    "../data/identity-provider-templates/templates/duo/duo.json";
 import EnterpriseIdPTemplate from
     "../data/identity-provider-templates/templates/enterprise-identity-provider/enterprise-identity-provider.json";
 import ExpertModeIdPTemplate from "../data/identity-provider-templates/templates/expert-mode/expert-mode.json";
@@ -102,8 +104,10 @@ export class IdentityProviderManagementConstants {
         SAML: string;
         TRUSTED_TOKEN_ISSUER: string;
         SWE: string;
+        DUO: string;
     } = {
         APPLE: AppleIdPTemplate.id,
+        DUO: DuoIdPTemplate.id,
         ENTERPRISE: EnterpriseIdPTemplate.id,
         EXPERT_MODE: ExpertModeIdPTemplate.id,
         FACEBOOK: FacebookIdPTemplate.id,

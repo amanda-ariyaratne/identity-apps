@@ -1,0 +1,10 @@
+{
+    "id": "duo-idp",
+    "name": "Duo",
+    "description": "Enable login for users using Duo push notifications.",
+    "image": "assets/images/logos/duo.svg",
+    "category": "DEFAULT",
+    "displayOrder": 7,
+    "tags": [ "MFA" ],
+    "type": "identity-provider"
+}
